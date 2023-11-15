@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+      <div class="row">
+        <div class="main">
+          <div class="textarea">
+            <textarea
+              name="todolist"
+              id="add-todo"
+              cols="100"
+              rows="3"
+              wrap="off"
+            ></textarea>
+          </div>
+          <button class="add_todo add">ADD</button>
+        </div>
+        <div class="heading">
+          <h2 class="center">Pending Tasks</h2>
+          <!-- <h3><a href="completed.html">Completed Tasks</a></h3> -->
+        </div>
+        <ul class="tasks">
+          <!-- <div class="list">
+            <textarea
+              name="tasks"
+              id="task"
+              cols="100"
+              rows="3"
+              wrap="off"
+              readonly
+            ></textarea>
+            <button class="add_todo">Edit</button>
+            <button class="add_todo red">X</button>
+            <button class="add_todo">Done</button>
+          </div> -->
+        </ul>
+        <ul class="comp_ul">
+          <h2 class="invisible">Completed Tasks</h2>
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

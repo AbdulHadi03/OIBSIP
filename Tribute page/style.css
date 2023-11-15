@@ -1,0 +1,128 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Bitter', serif;
+       overflow-x: hidden;
+       background-color: grey;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
+.row{
+     height: 100%;
+    width: 100%;
+    
+}
+.main{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+     background-color: #2E4053 ;
+     
+}
+.name{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Bitter', serif;
+    display: flex;
+    flex-direction: column;
+}
+.small-text{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.second-page{
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2.5rem;
+    background-color: #85929E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    }
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}    
+.third-page{
+    background-color: #2E4053 ;
+}
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 48vw;
+    animation: myAnim 15s linear 0s 100 normal forwards;
+    text-align: center;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-30px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-35px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-20px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+.logo p{
+    color: white;
+    font-size: 2rem;
+}
+.fourth-page{
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2.5rem;
+    background-color: #85929E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
